@@ -1,13 +1,13 @@
 ---
 name: gpuni
 description: >-
-  Write cross-platform GPU compute kernels using gpuni CUDA-truth dialect (*.gu.cu).
-  Kernels compile natively as CUDA/HIP and render to OpenCL C 1.2.
-  Use when: (1) creating/editing *.gu.cu files, (2) writing portable GPU parallel code,
-  (3) using address-space qualifiers (__global/__local/__constant),
-  (4) implementing portable atomics (atomicAddFloat, atomicAddFixed),
-  (5) using dynamic shared memory (bindSharedMem),
-  (6) reviewing CUDA/HIP/OpenCL portability,
+  Cross-platform GPU kernel dialect — write once, run on NVIDIA (CUDA), AMD (HIP), and Intel/others (OpenCL 1.2).
+  Use when: (1) writing portable GPU code across CUDA/HIP/OpenCL,
+  (2) porting CUDA kernels to AMD or OpenCL,
+  (3) creating/editing *.gu.cu files,
+  (4) needing cross-vendor GPU compute,
+  (5) using address-space qualifiers (__global/__local/__constant),
+  (6) implementing portable atomics or shared memory,
   (7) debugging OpenCL render errors.
 ---
 
