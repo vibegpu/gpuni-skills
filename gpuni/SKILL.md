@@ -65,18 +65,14 @@ gu::Memcpy(d_x, h_x, bytes, gu::H2D);  // ✓ use Memcpy instead
 | File | When to read |
 |------|--------------|
 | `references/README.md` | Dialect rules + API (kernel & host) |
-| `references/examples.md` | Need complete code templates |
+| `references/gpuni.h` | Implementation details, macro definitions |
+| `references/examples.md` | Complete code templates |
 | `references/dialect.md` | Compile errors (OpenCL error → fix mapping) |
 
 ## Package
 
-Dialect package: **https://github.com/vibegpu/gpuni**
-Skill package: **https://github.com/vibegpu/gpuni-skill**
-
 | File | Purpose |
 |------|---------|
-| `gpuni.h` | Core header (backend detection, macros, portable APIs) |
-| `tools/render.c` | Offline CUDA→OpenCL renderer |
-| `README.md` | Usage guide |
-| `gpuni/SKILL.md` | Skill entry point |
-| `gpuni/references/*` | Skill reference docs |
+| `references/gpuni.h` | Core header (backend detection, macros, portable APIs) |
+| `references/tools/render.c` | Offline CUDA→OpenCL renderer |
+| `references/README.md` | Usage guide |
