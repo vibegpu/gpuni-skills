@@ -74,5 +74,5 @@ gu::Memcpy(d_x, h_x, bytes, gu::H2D);  // ✓ use Memcpy instead
 | File | Purpose |
 |------|---------|
 | `references/gpuni.h` | Core header (backend detection, macros, portable APIs) |
-| `references/tools/render.c` | Offline CUDA→OpenCL renderer |
+| `references/render.c` | Offline CUDA→OpenCL renderer |
 | `references/README.md` | Usage guide |
